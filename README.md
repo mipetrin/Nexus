@@ -3,6 +3,7 @@ Created by Michael Petrinovic 2018
 Sample Nexus On-Board Python Scripts for:
 * Cisco Live Melbourne 2018: BRKDCN-2602
 * Cisco Live USA 2018: BRKDCN-2011
+* Cisco Live Barcelona 2019: BRKDCN-2011
 
 You need to copy these scripts over to a supported Nexus platform that is running a version of NXOS capable to execute python scripts
 
