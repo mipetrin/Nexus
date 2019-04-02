@@ -1,4 +1,4 @@
-Sample ACI Python Scripts from various presentations that I do at Cisco Live and other events, including Customer Presentations/Demos, DevNet, DevNet Express Events, Internal Training that I feel the demo should be shared, etc:
+Sample Nexus Python Scripts from various presentations that I do at Cisco Live and other events, including Customer Presentations/Demos, DevNet, DevNet Express Events, Internal Training that I feel the demo should be shared, etc:
 
 * Cisco Live Melbourne 2018: BRKDCN-2602
 * Cisco Live Orlando 2018: BRKDCN-2011
