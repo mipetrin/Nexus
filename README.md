@@ -1,25 +1,17 @@
-Created by Michael Petrinovic 2018
+Sample ACI Python Scripts from various presentations that I do at Cisco Live and other events, including Customer Presentations/Demos, DevNet, DevNet Express Events, Internal Training that I feel the demo should be shared, etc:
 
-Sample Nexus On-Board Python Scripts for:
 * Cisco Live Melbourne 2018: BRKDCN-2602
-* Cisco Live USA 2018: BRKDCN-2011
+* Cisco Live Orlando 2018: BRKDCN-2011
 * Cisco Live Barcelona 2019: BRKDCN-2011
+* Cisco Live Melbourne 2019: BRKDCN-2602
+* Cisco Live San Diego 2019: BRKDCN-2011
 
-You need to copy these scripts over to a supported Nexus platform that is running a version of NXOS capable to execute python scripts
 
-Copy them over to the bootflash:scripts/ directory
+> You need to copy these scripts over to a supported Nexus platform that is running a version of NXOS capable to execute python scripts
 
-Sample usage (with your appropriate IPs and VRF substituted):
+> Copy them over to the bootflash:scripts/ directory
 
-Ping Range:
-```YAML
-# python bootflash:scripts/ping_range.py 6.2.6.3-7 vrf mipetrin-CLUS18
-```
-
-Super Command = show ip arp, show mac address, show cdp, show running-config interface
-```YAML
-# python bootflash:scripts/nexus_supercommand_arp_mac_cdp_run.py 6.2.6.7
-```
+Within each sub-directory, is the script and an additional README. It will be documented in that README what each script is expected to achieve and how to use that particular script. 
 
 
 WARNING:
