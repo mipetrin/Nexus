@@ -7,9 +7,7 @@ Sample Nexus Python Scripts from various presentations that I do at Cisco Live a
 * Cisco Live San Diego 2019: BRKDCN-2011
 
 
-> You need to copy these scripts over to a supported Nexus platform that is running a version of NXOS capable to execute python scripts
-
-> Copy them over to the bootflash:scripts/ directory
+> NOTE: Some of these scripts (eg: Nexus_Super_CMD and Ping_Range) need to be copied over to the bootflash:scripts/ directory on a supported Nexus platform that is running a version of NXOS capable to execute python scripts. Other scripts, such as SSH_Check_Command, can be run from any PC with Python installed and the various packages (Eg: netmiko, etc). Each folder's README will provide more guidance.
 
 Within each sub-directory, is the script and an additional README. It will be documented in that README what each script is expected to achieve and how to use that particular script. 
 
