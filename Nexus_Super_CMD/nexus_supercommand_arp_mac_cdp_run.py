@@ -233,7 +233,7 @@ def main():
                 output += [' ' * depth + 'ARP entry on {0}'.format(interface)]
                 depth = 4
             output += [' ' * depth + 'MAC address: {0}'.format(mac)]
-            output += [' ' * depth + 'L3 gateway: {0}'.format(interface)]
+            output += [' ' * depth + 'L3 gateway: {0}\n'.format(interface)]
             if 'Vlan' in interface:
                 vlanfilter = interface.split('Vlan')[1]
             else:
@@ -251,10 +251,10 @@ def main():
                 # print "TITU VLAN : ", vlan
                 if len(macentries) > 1:
                     output += [' ' * depth +
-                               'Port Channel {0} member {1}'.format(parentport, port)]
+                               'Port Channel {0} member {1}\n'.format(parentport, port)]
                     depth += 2
                 output += [' ' * depth + 'Local interface: {0}'.format(port)]
-                output += [' ' * depth + 'VLAN: {0}'.format(vlan)]
+                output += [' ' * depth + 'VLAN: {0}\n'.format(vlan)]
                 # Modified original code as would incorrectly skip over the CDP information, due to
                 # 'Eth' in port.lower(), which would always be lower case, but we are searching for Captial E = Eth
                 if 'eth' in port.lower() or 'mgmt' in port.lower():
@@ -267,7 +267,7 @@ def main():
                     output += [' ' * depth +
                                'CDP Device ID: {0}'.format(cdp['device_id'])]
                     output += [' ' * depth +
-                               'CDP Remote Port ID: {0}'.format(cdp['port_id'])]
+                               'CDP Remote Port ID: {0}\n'.format(cdp['port_id'])]
 
                 # Addition, pull the interface configuration
                 int_config = getinterfaceconfig(port)
